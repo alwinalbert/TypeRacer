@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/ ',
       routes: {
         '/':(context)=> HomeScreen(),
-        '/create-room':(context)=> createRoomScreen(),
+        '/create-room':(context)=> CreateRoomScreen(),
         '/join-room':(context)=> joinRoomScreen(),
 
       }

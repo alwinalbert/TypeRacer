@@ -11,7 +11,9 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: ConstrainedBox(
-          constraints: const BoxConstraints(maxWidth: 600),
+          constraints: const BoxConstraints(
+            maxWidth: 600
+            ),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
